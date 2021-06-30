@@ -37,8 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'core.apps.CoreConfig',
-    'restframework',
+    'escrow.apps.EscrowConfig',
+    'rest_framework',
+    'escrow_api',
 ]
 
 MIDDLEWARE = [
